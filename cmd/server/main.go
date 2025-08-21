@@ -1,6 +1,8 @@
 package main
 
 import (
+	// "fmt"
+	// "os"
 	"context"
 	"log"
 	"net/http"
@@ -9,9 +11,11 @@ import (
 	"time"
 
 	"github.com/bizzysGitHub/Golang-Chat-Angular/internal/chat"
+	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {
+
 	// Root context that cancels on Ctrl+C / SIGTERM
 	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)
 	defer stop()
@@ -56,3 +60,14 @@ func main() {
 	_ = srv.Shutdown(shutdownCtx) // stop accepting new conns; let in-flight finish
 	log.Println("bye")
 }
+
+/*
+func checkForJwtSig() {
+	// secret := os.Getenv("JWT_HS256_SECRET")
+	// if secret == "" {
+	// 	fmt.Println("❌ No secret loaded. Did you create .env and run go get github.com/joho/godotenv ?")
+	// } else {
+	// 	fmt.Println("✅ Secret loaded from .env:", secret[:8], "...") // just show first few chars
+	// }
+}
+*/

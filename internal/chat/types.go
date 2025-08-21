@@ -10,3 +10,6 @@ type Message struct {
 	Payload json.RawMessage `json:"payload,omitempty"` // defer decoding
 
 }
+type ChatPayload struct {
+	Text string `json:"text"`
+}
