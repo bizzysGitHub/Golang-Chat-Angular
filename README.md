@@ -1,5 +1,7 @@
 # ⚡ Golang Chat + Angular
 
+> Status: Work in progress. Backend websockets and JWT are almost finished; then its up to creating and wiring Angular client to the auth.
+
 > A blazing-fast, real-time chat application powered by **Golang** on the backend and **Angular** on the frontend.
 
 ![Go](https://img.shields.io/badge/Go-1.21%2B-00ADD8?style=flat-square&logo=go)
