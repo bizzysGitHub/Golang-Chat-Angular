@@ -1,6 +1,6 @@
 # ⚡ Golang Chat + Angular
 
-> Status: Work in progress. Backend websockets and JWT are almost finished; then its up to creating and wiring Angular client to the auth.
+> Status: Work in progress. Backend websockets and JWT are almost finished; then its on to creating and wiring Angular client to the auth.
 
 > A blazing-fast, real-time chat application powered by **Golang** on the backend and **Angular** on the frontend.
 
@@ -18,7 +18,14 @@
 - 🔐 **User Authentication** – Secure login with JWT  
 - 💬 **Persistent Chat History** – Conversations saved in a relational database  
 - 📱 **Responsive Design** – Works beautifully on desktop & mobile  
-- 🐳 **Dockerized Deployment** – Easy to ship anywhere  
+- 🐳 **Dockerized Deployment** – Easy to ship anywhere
+
+## Next Up
+- Wire Angular client to WebSocket server
+- Implement JWT authentication flow
+- Set up PostgreSQL persistence for messages
+- Add architecture diagram to docs
+- Write unit tests for JWT middleware
 
 ---
 
