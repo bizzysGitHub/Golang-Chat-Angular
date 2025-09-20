@@ -21,7 +21,7 @@
 - 🐳 **Dockerized Deployment** – Easy to ship anywhere
 
 ## Next Up
-- Wire Angular client to WebSocket server
+- Create Angular client and wire to WebSocket server
 - Implement JWT authentication flow
 - Set up PostgreSQL persistence for messages
 - Add architecture diagram to docs
