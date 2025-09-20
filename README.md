@@ -1,6 +1,6 @@
 # ⚡ Golang Chat + Angular
 
-> Status: Work in progress. Backend websockets and JWT are almost finished; then its on to creating and wiring Angular client to the auth.
+> Status: Work in progress. Backend websockets and JWT are almost finished; then its on to creating and wiring Angular frontend.
 
 > A blazing-fast, real-time chat application powered by **Golang** on the backend and **Angular** on the frontend.
 
